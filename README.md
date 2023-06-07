@@ -10,6 +10,14 @@ The YOLOv3 algorithm is a state-of-the-art object detection model that achieves 
 
 ## Dataset
 The dataset can be foung in the following Kaggle [link](https://www.kaggle.com/datasets/aruchomu/data-for-yolo-v3-kernel)
+
+## Dependencies
+- Tensorflow (deep learning)
+- NumPy (numerical computation)
+- Pillow (image processing) libraries
+- seaborn's color palette for bounding boxes color. Finally
+- import IPython function display() to display images in the notebook.
+
 ## Results
 After running the object detection scripts, the detected objects will be highlighted with bounding boxes and labels. The results can be visualized on images or saved as processed videos.
 
@@ -25,3 +33,6 @@ This implementation is based on the work of Joseph Redmon et al. and the origina
 ## References
 Original YOLO paper: YOLOv3: An Incremental Improvement
 YOLOv3 repository: https://github.com/YunYang1994/tensorflow-yolov3
+
+## Contact
+For any questions, suggestions, or issues, feel free to contact the repository maintainer at chris13angelid@gmail.com
